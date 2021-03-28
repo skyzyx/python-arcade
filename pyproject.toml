@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-arcade"
+version = "0.0.0"
+description = "Playing games!"
+authors = ["Ryan Parman <ryan@ryanparman.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+arcade = "^2.5.5"
+colorful = "^0.5.4"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
